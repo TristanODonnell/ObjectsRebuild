@@ -83,7 +83,7 @@ public class UIManager : MonoBehaviour
         healthText.gameObject.SetActive(true );
         nukeText.gameObject.SetActive (true);
         scoreText.gameObject.SetActive(true);
-
+        scoreText.text = "Score: 0";
 
         titleText.gameObject.SetActive(false);
         startButton.gameObject.SetActive(false);
